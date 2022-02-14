@@ -1,0 +1,43 @@
+.boxTable{
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #a3a4a4;
+  font-weight: bold;
+  color: #7b7c7c;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.customTable{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.customTable thead th{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 25px;
+    text-align: center;
+    border-bottom: 1pt solid #a3a4a4;
+}
+
+/*.customTable thead th:hover{
+	background: #01f4ac;
+	color: white;
+	cursor: pointer;
+} */
+
+
+  .customTable tbody td {
+    color: #777;
+    padding: 10px 25px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+.spacer{
+	height: 15px;
+    background: transparent;
+}

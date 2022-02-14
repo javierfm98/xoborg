@@ -1,0 +1,15 @@
+.butttonSubmit{
+	cursor: pointer;
+	border: none;
+	padding: 10px 50px;
+	border-radius: 4px;
+	min-width: 88px;
+	transition: .25s;
+	color: #fff;
+	background: #545454;
+}
+
+
+.butttonSubmit:hover{
+	background-color: #01f4ac;
+}

@@ -1,0 +1,43 @@
+.container{
+	background: white;
+    max-width: 400px;
+    height: 320px;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+.containerForm{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.boxInput{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	gap: 5px;
+}
+
+.title{
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+}
+
+ .input {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  outline: none;
+  padding: 0 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+ .input:focus {
+  border: 2px solid #545454;
+}
